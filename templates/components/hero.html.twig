@@ -1,0 +1,15 @@
+
+<div class="card text-center">
+  {% if data.image %}
+    <img src="{{ data.image }}" class="img-fluid">
+  {% endif %}
+  <div class="content p-20">
+    <h1>{{ data.title }}</h1>
+    <p class="text-muted">{{ data.subtitle }}</p>
+    {% if data.cta_url %}
+      <a class="btn btn-primary" href="{{ data.cta_url }}">
+        {{ data.cta_text }}
+      </a>
+    {% endif %}
+  </div>
+</div>
