@@ -1,0 +1,23 @@
+
+<?php
+
+function desert_moon_preprocess_page(&$variables) {
+  $variables['attributes']['class'][] = 'dm-v2';
+}
+
+/**
+ * Component theme registry
+ */
+function desert_moon_theme($existing, $type, $theme, $path) {
+  return [
+    'desert_moon_component__hero' => [
+      'variables' => ['data' => NULL],
+    ],
+    'desert_moon_component__card' => [
+      'variables' => ['data' => NULL],
+    ],
+    'desert_moon_component__section' => [
+      'variables' => ['data' => NULL],
+    ],
+  ];
+}

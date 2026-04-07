@@ -1,0 +1,17 @@
+
+name: Desert_Moon
+type: theme
+description: 'Angelos Frontend Engine v2 - Halfmoon UI system'
+core_version_requirement: ^11
+base theme: false
+
+libraries:
+  - desert_moon/global
+  - desert_moon/darkmode
+
+regions:
+  header: Header
+  hero: Hero
+  content: Content
+  sidebar: Sidebar
+  footer: Footer

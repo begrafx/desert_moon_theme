@@ -1,0 +1,15 @@
+
+global:
+  css:
+    theme:
+      https://cdn.jsdelivr.net/npm/halfmoon@2.0.2/css/halfmoon.min.css: {}
+      css/style.css: {}
+  js:
+    https://cdn.jsdelivr.net/npm/halfmoon@2.0.2/js/halfmoon.min.js: {}
+    js/script.js: {}
+  dependencies:
+    - core/drupal
+
+darkmode:
+  js:
+    js/darkmode.js: {}
