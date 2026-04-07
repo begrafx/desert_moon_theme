@@ -1,0 +1,9 @@
+{
+  "name": "begrafx/desert_moon_theme",
+  "type": "drupal-theme",
+  "description": "Frontend theme for Desert Moon",
+  "license": "MIT",
+  "require": {
+    "drupal/core": "^11"
+  }
+}
