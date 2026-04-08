@@ -6,7 +6,7 @@ package: Angelos
 core_version_requirement: ^11
 base theme: false
 
-version: 0.1.0
+version: 0.1.1
 
 libraries:
   - desert_moon/global
