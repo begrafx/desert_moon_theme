@@ -1,12 +1,16 @@
 name: Desert Moon Theme
 type: theme
-description: 'Angelos Frontend Engine v2 - Halfmoon UI system'
+description: 'Desert Moon frontend engine for Angelos CMS, built on the Halfmoon UI framework.'
+package: Angelos
+
 core_version_requirement: ^11
 base theme: false
 
+version: 0.1.0
+
 libraries:
-  - desert_moon_theme/global
-  - desert_moon_theme/darkmode
+  - desert_moon/global
+  - desert_moon/darkmode
 
 regions:
   header: Header
