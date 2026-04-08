@@ -1,13 +1,11 @@
-global:
+global-styling:
   css:
     theme:
-      https://cdn.jsdelivr.net/npm/halfmoon@2.0.2/dist/css/halfmoon.min.css: {}
-      css/style.css: {}
+      https://cdn.jsdelivr.net/npm/halfmoon@2.0.2/css/halfmoon.min.css: {}
 
+global-scripts:
   js:
     https://cdn.jsdelivr.net/npm/halfmoon@2.0.2/dist/js/halfmoon.min.js: {}
-    js/script.js: {}
-
   dependencies:
     - core/drupal
     - core/once
@@ -15,3 +13,7 @@ global:
 darkmode:
   js:
     js/darkmode.js: {}
+  dependencies:
+    - core/drupal
+    - core/once
+    - desert_moon/global-scripts
