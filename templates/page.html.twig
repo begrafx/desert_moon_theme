@@ -1,23 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <head-placeholder token="{{ placeholder_token }}">
+    <title>{{ head_title|safe_join(' | ') }}</title>
+    <css-placeholder token="{{ placeholder_token }}">
+    <js-placeholder token="{{ placeholder_token }}">
+  </head>
 
-<div class="page-wrapper with-navbar dm-v2">
+  <body>
+    <header>
+      <h1>Desert Moon</h1>
+      <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    </header>
 
-  <nav class="navbar">
-    <a class="navbar-brand" href="/">Desert Moon</a>
-    <button onclick="toggleDarkMode()" class="btn btn-sm">Dark</button>
-  </nav>
-
-  {% if page.hero %}
+    {% if page.hero %}
     <section class="hero-section">
       {{ page.hero }}
     </section>
   {% endif %}
 
-  <main class="container-fluid">
-    {{ page.content }}
-  </main>
 
-  <footer class="text-center p-20">
-    {{ page.footer }}
-  </footer>
+    <main class="container-fluid">
+      {{ page.content }}
+    </main>
 
-</div>
+    <footer>
+      <p>© Angelos</p>
+    </footer>
+
+    <js-bottom-placeholder token="{{ placeholder_token }}">
+  </body>
+</html>
